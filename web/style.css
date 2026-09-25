@@ -1,0 +1,84 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /*align-items: center;*/
+    justify-content: center;
+    background-color: slategrey;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    height: 66.67vh;
+    width: 100%;
+    /* border: 2px solid yellow; */
+}
+
+header{
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-content: center;
+    /* border: solid 1px purple; */
+}
+
+div{
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    height: 15%;
+    width: 40%;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    user-select: none;
+}
+
+.palavraLinha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px 0px 15px 0px;
+    /* border: 2px dotted blue; */
+    height: 40px;
+    width: 100%;
+}
+
+.divLetra{
+    display: grid;
+    place-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    border: 2px solid rgb(84, 96, 107);
+    cursor: pointer;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.divLetra.selecionado{
+    border-bottom: 10px solid rgb(84, 96, 107);
+    font-weight: bolder;
+}
+
+#tabelaPalavras{
+    padding: 50px;
+    height: 100%;
+    width: 350px;
+}
